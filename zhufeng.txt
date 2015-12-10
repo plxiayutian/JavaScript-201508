@@ -1,0 +1,12 @@
+GitHub网址：
+https://github.com
+
+Git学习地址：
+http://school.zhufengpeixun.cn/course/31
+
+zhufengpeixun讲义 GitHub地址：
+http://github.com/zhufengpeixun/JavaScript-201508.git
+https://github.com/plxiayutian/JavaScript-201508.git
+
+我的GitHub：
+https://github.com/plxiayutian/git
