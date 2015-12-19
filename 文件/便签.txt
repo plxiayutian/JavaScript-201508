@@ -1,0 +1,48 @@
+安易企业信息管理系统
+http://erp.unifease.com
+PengLei  958253
+
+TP-LINK
+ytayyfighting
+
+SQL
+192.168.1.109
+SQL身份:peoject project
+
+
+安易数字幼儿园
+http://192.168.1.109/bjekang/admin/desktop.html?anerom=171
+
+安易CMS管理系统
+http://localhost:26218/code/index.html
+
+消息工具
+http://tool.ane8.com
+test  test
+
+谷歌cdn
+1).http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js
+
+
+2).http://www.google.com/jsapi/
+调用:google.load("jquery","1.4.2");
+google.load("prototype"); //等其余JS库
+
+google.setOnLoadCallbacjk(function(){
+   alert(jQuery);
+});
+
+
+appCan网
+http://newdocx.appcan.cn/index.html
+
+
+JavaScript官网
+http://www.w3school.com.cn/js/
+
+脚本之家
+http://www.jb51.net
+http://download.chinaitlab.com/special/javadownload.htm
+
+活动行
+http://www.huodongxing.com/

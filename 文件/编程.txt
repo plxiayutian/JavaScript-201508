@@ -1,0 +1,14 @@
+select xmname,cardid,kkhcode,kkhname,ljxfe,jifen,dzdh,callnum,fkrq,zjm 
+from cgdd.dbo.lscard_wh 
+where kkhcode like '%'+'%' or kkhname like '%'+'%' 
+or zjm like '%'+'%'
+ 
+dmlz19
+采纳率：47% 10级 2013.05.03
+khcode like '%'+'%' 代表所有khcode 
+kkhname like '%'+'%' 代表所有kkhname 
+zjm like '%'+'%' 代表所有zjm 
+
+khcode like '01'+'%' 代表所有以01开头的 khcode 
+khcode like '%'+'01' 代表所有以01结尾的 khcode 
+khcode like '%'+'01'+'%' 代表所有包含01的 khcode

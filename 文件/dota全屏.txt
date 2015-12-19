@@ -1,0 +1,21 @@
+开始-运行（或win键+r）输入regedit 
+ 
+HKEY_CURRENT_USER/Software/Blizzard Entertainment/Warcraft III/Video 
+ 
+打开后在右边的列表里找到resheight和reswidth. 
+ 
+resheight是高度，reswidth是宽度。 
+ 
+双击resheight打开后，基数选择10进制，输入768  
+同理将reswidth修改为1366。 
+
+
+
+
+此刷机方法会清空所有用户数据，但不会清除SD卡或虚拟SD卡上的文件。 
+下载并安装MiFlash刷机工具：http://bigota.d.miui.com/tools/MiPhone2.11.6.exe。 
+下载并解压线刷包：http://rom.xiaomi.cn/ 。 应关闭电脑端所有手机管理软件，包括但不限于“豌豆荚”、
+“91手机助手”、“腾讯手机管家”、“金山手机助手”、“360手机管家”。 
+进入Recovery模式清空全部数据，然后关机，然后进入Fastboot模式。 
+电脑端开启MiFlash，然后将手机通过USB数据线连接电脑。 在MiFlash中选择解压后的线刷包，点击刷新，并点击刷机
+。 刷机成功后，手机将自动开机。 可让参照官网：http://www.miui.com/a-102.html
