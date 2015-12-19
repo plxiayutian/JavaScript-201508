@@ -1,0 +1,120 @@
+body,div,ul,li,span{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:url("bj.png");
+    background-size:200%;
+    background-repeat:no-repeat;
+    position:relative;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    font-family: "Î¢ÈíÑÅºÚ", Verdana, sans-serif, "ËÎÌå";
+}
+.top{
+    margin: 1% 15px;
+    background:white;
+    border-radius: 5px;
+    width: 90%;
+    height: auto;
+    float: left;
+}
+.topleft{
+    width: 50%;
+    float: left;
+}
+.topright{
+    width: 50%;
+    float: right;
+}
+.imgwl{
+    margin: 5px;
+    width: 90%;
+    height:120px;
+}
+.righttop{
+    margin: 10px auto 5px 0;
+}
+.righttop span{
+    color: #008CD7;
+    font-size: 20px;
+}
+.rightcenter{
+    margin: 5px auto 5px 0;
+}
+.rightcenter span{
+    color: #008CD7;
+    font-size: 20px;
+}
+.rightbottom{
+    margin: 10px 0 5px 0;
+    text-align: center;
+    width: 90%;
+    height: 5%;
+    border-radius: 5px;
+    background: url("dkxx.png") no-repeat center center;
+}
+.rightbottom span {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.center{
+    position: relative;
+    margin: 2% 15px;
+    background:white;
+    border-radius: 5px;
+    width: 90%;
+    height:auto;
+    float: left;
+}
+.centerleft{
+    margin: 10px 2px;
+    width: 48%;
+    height:auto;
+    min-height:90px;
+    _height:expression((document.documentElement.clientHeight||document.body.clientHeight)>1000?"1000px":"");
+    background: url("cpu.png") no-repeat center center;
+    background-size:100% 100%;
+    float: left;
+    text-align: right;
+}
+.centerleft span{
+    font-size: 3em;
+    color: #FFFFFF;
+}
+.centerright{
+    margin: 10px 2px;
+    width:48%;
+    height: auto;
+    min-height:90px;
+    _height:expression((document.documentElement.clientHeight||document.body.clientHeight)>1000?"1000px":"");
+    background: url("nc.png") no-repeat center center;
+    background-size:100% 100%;
+    float: right;
+    text-align: right;
+    color: #FFFFFF;
+}
+.centerright span{
+    font-size: 3em;
+    color: #FFFFFF;
+}
+.bottom{
+    margin: 2% 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    float: left;
+    background:white;
+    border-radius: 5px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+.bottomul{
+    list-style: none;
+}
+.bottomul li {
+    margin-top: 2%;
+}
