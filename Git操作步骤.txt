@@ -24,7 +24,7 @@ origin  https://github.com/plxiayutian/JavaScript-201508.git (push)
 zhufeng http://github.com/zhufengpeixun/JavaScript-201508.git (fetch)
 zhufeng http://github.com/zhufengpeixun/JavaScript-201508.git (push)
 
-6.拉取别人的仓库跟新
+6.拉取别人的仓库更新
 $ git remote update zhufeng  -->把 本地和zhufeng的仓库的连接通道跟新
 $ git pull zhufeng master    -->拉取zhufeng的最新代码到本地
 pull（拉取）	master（管理员）
@@ -36,10 +36,28 @@ $ git commit -m"zhufeng更新"	-->添加跟新的备注信息
 $ git pull origin master	-->拉起自己远程仓库的代码
 $ git push origin master	-->推送代码更新到自己的仓库
 push(推送) origin（自己的仓库名）
+空文件夹，没有文件不能提交。
 
 8.删除连接
 $ git remote rm zhufeng   
 rm(remove 删除 ）
+
+9.更新别人仓库的内容到自己的gitHub,或者推送自己的仓库更新到别人的gitHub
+  1）New pull request 最新推送请求。
+  2）或者，Code后面的pull request里面的 New pull request 最新推送请求
+注意顺序，把右边的内容，提交到左边的仓库。
+  3）Create pull request
+  4）第一行输入的是提交或者拉取的代码的备注，若有更新，会自动获取，正文部分是问题的详细描述。
+  5）收到提交的一方在Pull request中能够看到对方提交过来的文件请求。通过：
+     Merge pull request同意请求。
+
+
+
+
+
+
+
+
 
 
 
